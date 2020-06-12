@@ -1,0 +1,88 @@
+.App-header {
+  background-color: #022140;
+  min-height: 600px;
+  min-width:430px;
+  max-height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color:#fff;
+}
+.button {
+  border: none;
+  border-radius: 20px;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button2 {
+  background-color: #022140; 
+  color: white; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.Start{
+  cursor: pointer;
+  position: absolute;
+  top:40%;
+  animation: lower 10s linear infinite;
+  font-family:monospace;
+}
+.Start:hover{
+  transform: scale(1.4);
+}
+
+.startlink{
+  color: ;
+  text-decoration: none;
+}
+
+.main{
+  background-color: #022140;
+  display: flex;
+  flex-direction: column;
+  min-height: 600px;
+  min-width:430px;
+  max-height: 100%;
+}
+
+.qr{
+  padding:20px;
+  width:40px;
+  float: right;
+}
+.info {
+  background-color: #e7f3fe;
+  border-left: 6px solid #379683;
+  border-bottom: 2px solid #379683;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.header{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.body{
+  background-color: #022140;
+  justify-content: center;
+  font-size: calc(10px + 2vmin)
+}
+
