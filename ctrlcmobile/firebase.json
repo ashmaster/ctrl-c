@@ -1,0 +1,14 @@
+{
+    "react-native": {
+      // on device face detection
+      "ml_vision_face_model": true,
+      // on device text recognition
+      "ml_vision_ocr_model": true,
+      // on device barcode detection
+      "ml_vision_barcode_model": true,
+  
+      // on device image labeling
+      "ml_vision_label_model": true,
+      "ml_vision_image_label_model": true
+    }
+  }
