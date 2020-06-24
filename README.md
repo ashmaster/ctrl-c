@@ -1,6 +1,7 @@
 # ctrl-c
 ## What is this
 An app and a web client in order to send text from mobile to computer.
+Web client cab be used from <a href = "https://ashmaster.github.io/ctrl-c-web">Web Client</a>
 ## Tech stacks used
 * It has React as the web client.
 * React Native for the mobile app.
